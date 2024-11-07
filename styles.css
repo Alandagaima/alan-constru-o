@@ -1,0 +1,60 @@
+body {
+    color:yellow;
+    background:gray;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 100px
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 165, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 165, 0);
+}
+
+.chamada {
+    background: rgb(203, 133, 46);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid yellow;
+}
+
+.categoria h2 {
+    color: yellow;
+}
